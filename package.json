@@ -1,0 +1,26 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "test for learning MEAN stack",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamperDoor56/git-test.git"
+  },
+  "author": "Ludmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamperDoor56/git-test/issues"
+  },
+  "homepage": "https://github.com/DamperDoor56/git-test#readme",
+  "dependencies": {
+    "lite": "^4.0.5",
+    "server": "^1.0.37"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
