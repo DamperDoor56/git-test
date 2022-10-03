@@ -4,7 +4,9 @@
   "description": "test for learning MEAN stack",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,10 @@
   },
   "homepage": "https://github.com/DamperDoor56/git-test#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
     "lite": "^4.0.5",
+    "popper.js": "^1.12.9",
     "server": "^1.0.37"
   },
   "devDependencies": {
