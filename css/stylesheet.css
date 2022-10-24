@@ -46,3 +46,39 @@ body{
     padding: 1rem;
     font-weight: 500;
 }
+.btn-warning a{
+    text-decoration: none;
+    color: black;
+}
+.table-reserve{
+    border-radius: 15px;
+    border: 1px solid rgb(189, 189, 189);
+    width: 200px;
+}
+.table-reserve tbody{
+    display: flex;
+    flex-direction: column;
+}
+.table-reserve thead{
+    color:snow;
+}
+.table thead th{
+    border: none;
+}
+.table thead tr{
+    padding: 0;
+}
+
+.table-reserve tr{
+    padding: 0.5rem;
+    display: flex;
+}
+.table td, .table th{
+    border: none;
+}
+.button-culiao{
+    margin-left: 50px;
+}
+.table-reserve input{
+    width: auto;
+}
